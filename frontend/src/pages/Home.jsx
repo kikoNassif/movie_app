@@ -68,7 +68,7 @@ function Home() {
         </div>
       )}
 
-      <div className='moveis-grid'>
+      <div className='movies-grid'>
         {movies.map((movie) => (
           <MovieCard movie={movie} key={movie.id}/>
           ))}
